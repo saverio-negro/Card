@@ -2,6 +2,8 @@
 
 ## Introduction
 
+<img src="./Card.png" width="25%" height="25%"/>
+
 The second component of my series is a reusable `Card` view. It's still very simple, but its inner workings lay down the foundation on which frameworks like `SwiftUICharts`, or `SwiftUI Essentials` are built.
 
 You may ask yourself why a `Card` view?
