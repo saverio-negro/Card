@@ -19,3 +19,11 @@ A `Card` view is nothing but a container for UI content that:
 - May be reused in many contexts (e.g., lists, detail views, dashboard layouts).
 
 ## Component Description
+
+Let me walk you through some of the `Card` view component code.
+
+First off, we have the line defining the `Card` struct itself: `public struct Card<Content: View>: View`.
+
+Well, this is a **generic** struct — its code works with any type, as long as that type conforms to the `View` protocol. `Content` in `<Content: View>` is just a type parameter name, which also specifies the constraints — conformance to the `View` protocol. Also, `Card` itself conforms to the `View` protocol, which makes it a type of `View` as well. That also means that it can be rendered in SwiftUI, very similar to `Text` or `VStack` in SwiftUI.
+
+Next up, 
