@@ -96,4 +96,39 @@ public var body: some View {
 
 9. Thank you!
 
+## Usage Example
+
+The code example using the `Card` framework displays the same result as the attached image in this README file:
+
+```swift
+import SwiftUI
+import Card
+
+struct ContentView: View {
+    var body: some View {
+        VStack(spacing: 20) {
+            Card {
+                VStack(alignment: .leading, spacing: 10) {
+                    
+                    Text("Card Title")
+                        .font(.headline)
+                    
+                    Text("This is some content in a reusable Card view.")
+                        .font(.subheadline)
+                }
+            }
+            
+            Card {
+                HStack {
+                    Image(systemName: "star.fill")
+                        .foregroundColor(.yellow)
+                    Text("Stars earned: 5")
+                        .bold()
+                }
+            }
+        }
+    }
+}
+```
+
 
