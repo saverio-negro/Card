@@ -1,4 +1,4 @@
-# 02 - Reusable Card View Component
+# 02 - Reusable SwiftUI Container with Card View Component
 
 ## Introduction
 
