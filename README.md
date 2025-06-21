@@ -76,4 +76,24 @@ public var body: some View {
 }
 ```
 
+## How to Import the Component/Framework
+
+1. Create an iOS application.
+
+2. Go to your Project Section.
+
+3. Select the "General" tab.
+
+4. Scroll down to the "Frameworks/Libraries" Section.
+
+5. Click on the "+" button to add a new framework.
+
+6. Add the package you downloaded, by selecting the "Add Files" option.
+
+7. Import the framework within your view by typing "import Card".
+
+8. You should now be able to test my component.
+
+9. Thank you!
+
 
