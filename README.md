@@ -58,7 +58,7 @@ public init(@ViewBuilder content: () -> Content) {
 
 Finally, we are rendering the `content` property from within the `body` property of our `Card` view, which will display it on the screen.
 
-Also, I customized its layout by applying modifiers on it: the code pads it using `padding()`, layers a `RoundedRectangle` shape behind our content view as its background, and adds a slight and elegant shadow to give it a nice and Apple-like hovering effect. 
+Also, I customized its layout by applying modifiers on it: the code pads it using `padding()`, layers a `RoundedRectangle` shape behind our content view as its background, and adds a slight and elegant shadow to give it a nice and Apple-like lifted-off effect to make the card elevated. 
 
 ```swift
 public var body: some View {
